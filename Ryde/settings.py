@@ -28,6 +28,7 @@ ALLOWED_HOSTS = []
 
 
 # Application definition
+# INSTALLED_APPS = DEFAULT_APPS + THIRD_PARTY_APPS + LOCAL_APPS
 
 INSTALLED_APPS = (
     'django.contrib.admin',
@@ -37,6 +38,7 @@ INSTALLED_APPS = (
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'south',
+    'v0',
 )
 
 MIDDLEWARE_CLASSES = (
